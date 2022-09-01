@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 25%;
+}
+
+.display {
+    height: 75px;
+    border:1px solid black;
+}
+
+.container {
+    height: 70%;
+    width: 50%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.button-0 {
+    grid-area: 5, 1, 6, 3;
+}
+
+.button-6 {
+    grid-area: 1, 1, 2, 2;
+}
+
+.button-equ {
+    border:1px solid black;
+    grid-area: 5, 3, 6, 5;
+}
+
+
